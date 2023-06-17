@@ -7,7 +7,7 @@ app.use(express.json());
 //route
 app.get("/", (req, res) => {
   res.send("Hello world from server");
-  res.end;
+  res.end();
 });
 
 //listening Port
